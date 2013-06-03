@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Hex2RGB' target in the 'Hex2RGB' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
