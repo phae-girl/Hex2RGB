@@ -13,6 +13,7 @@
 		ED3CB46F175C7D150057224F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = ED3CB46D175C7D150057224F /* Credits.rtf */; };
 		ED3CB472175C7D150057224F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3CB471175C7D150057224F /* AppDelegate.m */; };
 		ED3CB475175C7D150057224F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3CB473175C7D150057224F /* MainMenu.xib */; };
+		ED3CB47C175C929E0057224F /* icons.icns in Resources */ = {isa = PBXBuildFile; fileRef = ED3CB47B175C929E0057224F /* icons.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		ED3CB470175C7D150057224F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED3CB471175C7D150057224F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ED3CB474175C7D150057224F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ED3CB47B175C929E0057224F /* icons.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icons.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			children = (
 				ED3CB470175C7D150057224F /* AppDelegate.h */,
 				ED3CB471175C7D150057224F /* AppDelegate.m */,
+				ED3CB47B175C929E0057224F /* icons.icns */,
 				ED3CB473175C7D150057224F /* MainMenu.xib */,
 				ED3CB465175C7D150057224F /* Supporting Files */,
 			);
@@ -156,6 +159,7 @@
 				ED3CB469175C7D150057224F /* InfoPlist.strings in Resources */,
 				ED3CB46F175C7D150057224F /* Credits.rtf in Resources */,
 				ED3CB475175C7D150057224F /* MainMenu.xib in Resources */,
+				ED3CB47C175C929E0057224F /* icons.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
