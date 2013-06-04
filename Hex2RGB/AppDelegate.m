@@ -7,14 +7,19 @@
 //
 
 #import "AppDelegate.h"
+#import "NSColor+HexColor.h"
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-
+	
 }
 
+-(void)awakeFromNib
+{
+	[self.colorWell deactivate];
+}
 
 - (NSString *)integerForHexValue:(NSString *)hexValue
 {	
@@ -42,6 +47,8 @@
 	NSString *blueString = [hexString substringWithRange:NSMakeRange(4, 2)];
 	[self.integerBlue setStringValue:[self integerForHexValue:blueString]];
 	[self.floatBlue setStringValue:[self calculateFloatString:self.integerBlue.stringValue]];
+	
+	[self.colorWell setColor:[NSColor colorWithHexValue:inputString alpha:1.0]];
 }
 
 - (NSString *)calculateFloatString:(NSString *)input

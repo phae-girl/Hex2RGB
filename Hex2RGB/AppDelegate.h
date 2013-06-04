@@ -21,6 +21,7 @@
 @property (weak) IBOutlet NSTextField *integerGreen;
 @property (weak) IBOutlet NSTextField *integerBlue;
 
+@property (weak) IBOutlet NSColorWell *colorWell;
 
 - (IBAction)convert:(id)sender;
 - (IBAction)copyFloats:(id)sender;
