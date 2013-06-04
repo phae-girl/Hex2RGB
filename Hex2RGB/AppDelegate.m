@@ -13,12 +13,12 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-	
+	[self.colorWell addObserver:self forKeyPath:@"color" options:0 context:NULL];
 }
 
 -(void)awakeFromNib
 {
-	[self.colorWell deactivate];
+	//[self.colorWell addObserver:self forKeyPath:@"color" options:0 context:NULL];
 }
 
 - (NSString *)integerForHexValue:(NSString *)hexValue
@@ -76,4 +76,14 @@
 	[pasteboard clearContents];
 	[pasteboard writeObjects:@[outString]];
 }
+
+-(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
+{
+	NSLog(@"%s",__PRETTY_FUNCTION__);
+	if ([keyPath isEqualToString:@"color"]) {
+		NSColor *myColor = [self.colorWell color];
+		
+	}
+}
+
 @end
