@@ -14,6 +14,7 @@
 		ED3CB472175C7D150057224F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3CB471175C7D150057224F /* AppDelegate.m */; };
 		ED3CB475175C7D150057224F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3CB473175C7D150057224F /* MainMenu.xib */; };
 		ED3CB47C175C929E0057224F /* icons.icns in Resources */ = {isa = PBXBuildFile; fileRef = ED3CB47B175C929E0057224F /* icons.icns */; };
+		EDC36B60175E55200026F464 /* NSColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC36B5F175E55200026F464 /* NSColor+HexColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		ED3CB471175C7D150057224F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ED3CB474175C7D150057224F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		ED3CB47B175C929E0057224F /* icons.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icons.icns; sourceTree = "<group>"; };
+		EDC36B5E175E55200026F464 /* NSColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+HexColor.h"; sourceTree = "<group>"; };
+		EDC36B5F175E55200026F464 /* NSColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+HexColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 			children = (
 				ED3CB470175C7D150057224F /* AppDelegate.h */,
 				ED3CB471175C7D150057224F /* AppDelegate.m */,
+				EDC36B5E175E55200026F464 /* NSColor+HexColor.h */,
+				EDC36B5F175E55200026F464 /* NSColor+HexColor.m */,
 				ED3CB47B175C929E0057224F /* icons.icns */,
 				ED3CB473175C7D150057224F /* MainMenu.xib */,
 				ED3CB465175C7D150057224F /* Supporting Files */,
@@ -172,6 +177,7 @@
 			files = (
 				ED3CB46B175C7D150057224F /* main.m in Sources */,
 				ED3CB472175C7D150057224F /* AppDelegate.m in Sources */,
+				EDC36B60175E55200026F464 /* NSColor+HexColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +313,7 @@
 				ED3CB47A175C7D150057224F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
