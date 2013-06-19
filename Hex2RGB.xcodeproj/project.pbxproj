@@ -14,6 +14,7 @@
 		ED3CB472175C7D150057224F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3CB471175C7D150057224F /* AppDelegate.m */; };
 		ED3CB475175C7D150057224F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3CB473175C7D150057224F /* MainMenu.xib */; };
 		ED3CB47C175C929E0057224F /* icons.icns in Resources */ = {isa = PBXBuildFile; fileRef = ED3CB47B175C929E0057224F /* icons.icns */; };
+		EDABA9E517721B2C00F4F91A /* VWTAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDABA9E417721B2C00F4F91A /* VWTAppController.m */; };
 		EDC36B60175E55200026F464 /* NSColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC36B5F175E55200026F464 /* NSColor+HexColor.m */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,8 @@
 		ED3CB471175C7D150057224F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ED3CB474175C7D150057224F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		ED3CB47B175C929E0057224F /* icons.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icons.icns; sourceTree = "<group>"; };
+		EDABA9E317721B2C00F4F91A /* VWTAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWTAppController.h; sourceTree = "<group>"; };
+		EDABA9E417721B2C00F4F91A /* VWTAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWTAppController.m; sourceTree = "<group>"; };
 		EDC36B5E175E55200026F464 /* NSColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+HexColor.h"; sourceTree = "<group>"; };
 		EDC36B5F175E55200026F464 /* NSColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+HexColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,6 +54,8 @@
 		ED3CB452175C7D150057224F = {
 			isa = PBXGroup;
 			children = (
+				EDABA9E317721B2C00F4F91A /* VWTAppController.h */,
+				EDABA9E417721B2C00F4F91A /* VWTAppController.m */,
 				ED3CB464175C7D150057224F /* Hex2RGB */,
 				ED3CB45D175C7D150057224F /* Frameworks */,
 				ED3CB45C175C7D150057224F /* Products */,
@@ -178,6 +183,7 @@
 				ED3CB46B175C7D150057224F /* main.m in Sources */,
 				ED3CB472175C7D150057224F /* AppDelegate.m in Sources */,
 				EDC36B60175E55200026F464 /* NSColor+HexColor.m in Sources */,
+				EDABA9E517721B2C00F4F91A /* VWTAppController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
